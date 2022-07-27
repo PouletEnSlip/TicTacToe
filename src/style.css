@@ -1,14 +1,14 @@
 html {
-    background-color: #333;
-    color: white;
-    text-align: center;
+	background-color: #333;
+	color: white;
+	text-align: center;
 }
 
 h1 {
-    font-size: 40px;
-    color: #fff;
-    font-family: "Ink Free";
-    text-shadow: 2px 2px 8px black;
+	font-size: 40px;
+	color: #fff;
+	font-family: "Ink Free";
+	text-shadow: 2px 2px 8px black;
 }
 
 a {
@@ -21,86 +21,83 @@ a:hover {
 }
 
 .contenu {
-    display: grid;
-    grid-template-columns: repeat(3, auto);
-    width: 373px;
-    margin: auto;
+	display: grid;
+	grid-template-columns: repeat(3, auto);
+	width: 373px;
+	margin: auto;
 }
 
 .cell {
-    font-family: "Ink Free";
-    width: 120px;
-    height: 120px;
-    border: 3px solid white;
-    cursor: pointer;
-    line-height: 120px;
-    font-size: 80px;
+	font-family: "Ink Free";
+	width: 120px;
+	height: 120px;
+	border: 3px solid white;
+	cursor: pointer;
+	line-height: 120px;
+	font-size: 80px;
 }
 
 .cell:hover {
-    background-color: #444;
+	background-color: #444;
 }
 
 .message {
-    font-family: "Ink Free";
-    color: cyan;
+	font-family: "Ink Free";
+	color: cyan;
 }
 
 #un {
-    border-radius: 10% 0% 0% 0%;
+	border-radius: 10% 0% 0% 0%;
 }
 
 #deux {
-    border-radius: 0% 10% 0% 0%;
+	border-radius: 0% 10% 0% 0%;
 }
 
 #trois {
-    border-radius: 0% 0% 0% 10%;
+	border-radius: 0% 0% 0% 10%;
 }
 
 #quatre {
-    border-radius: 0% 0% 10% 0%;
+	border-radius: 0% 0% 10% 0%;
 }
 
 #new {
-    font-weight: bold;
+	font-weight: bold;
 	background-color: #4189d7;
 	border: none;
-    border-radius: 5px;
+	border-radius: 5px;
 	color: white;
 	padding: 10px 20px;
 	font-size: 16px;
-    cursor: pointer;
+	cursor: pointer;
 	transition: 0.1s;
 }
 
 #new:hover {
 	background-color: white;
-    border: none;
+	border: none;
 	color: #4189d7;
-    font-size: 17px;
-    box-shadow: 0 0 4px white,
-                0 0 4px white,
-                0 0 4px white,
-                0 0 4px white;
+	font-size: 17px;
+	box-shadow: 0 0 4px white;
 }
 
 #boutonNew {
-    height: 60px;
-    max-height: 60px;
+	height: 60px;
+	max-height: 60px;
 }
 
 @media only screen and (max-width: 800px) {
-    .contenu {
-        width: 250px;
-    }
-    .cell {
-        width: 80px;
-        height: 80px;
-        line-height: 80px;
-        font-size: 40px;
-    }
-    h1 {
+	.contenu {
+		width: 250px;
+	}
+	.cell {
+		width: 80px;
+		height: 80px;
+		line-height: 80px;
+		font-size: 40px;
+	}
+	h1 {
 		font-size: 30px;
 	}
 }
